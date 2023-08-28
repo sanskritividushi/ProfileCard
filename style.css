@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(18, 12, 12);
+    background: #ffd000;
     
 }
 
@@ -21,19 +21,19 @@ body {
     position: relative;
     max-width: 370px;
     width: 100%;
-    background: rgba(10, 4, 4, 0.999);
+    background: rgba(255, 255, 255, 0.994);
     border-radius: 25px;
     padding: 25px;
     overflow: hidden;
-    box-shadow: 0 6px 12px rgba(185, 67, 67, 0.919);
+    box-shadow: 0 6px 12px 0 rgba(28, 29, 8, 0.2);
 }
 
 .image{
     position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background-color: rgb(174, 22, 43);
+    height: 170px;
+    width: 170px;
+    border-radius: 80%;
+    background-color: #ffd000;
     padding: 3px;
     margin-bottom: 10px; 
 }
@@ -43,22 +43,26 @@ body {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #0a0808;
+    border: 3px solid #ffffff;
 }
 
 .profcard .content {
     display: flex;
     flex-direction: column;  
     align-items: center;
-    color: rgb(196, 35, 35)
+    color: #ffd000
 }
 .content .name {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 650;
+    text-shadow: 1px 1px rgb(247, 245, 195); 
+    
 }
 .content .job {
-    font-size: 0.9rem;
-    font-weight: 450;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-shadow: 1px 1px rgb(247, 245, 195);
+    
 }
 
 .profcard .social {
@@ -91,7 +95,7 @@ body {
     border-radius: 50%;
     color: black;
     width: 34px;
-    font-size: 20px;
+    font-size: 35px;
     margin: 0 8px;
     text-decoration: none;
     background-color: #b13030;
