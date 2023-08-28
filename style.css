@@ -99,3 +99,21 @@ body {
 
 }
 
+.social .links2{
+    height: 34px;
+    width: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #75420e;
+    width: 34px;
+    font-size: 30px;
+    margin: 0 8px;
+    text-decoration: none;
+    background-color: #e9e5cd;
+    margin-bottom: 2 rem;
+
+}
+
+
