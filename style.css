@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffd000;
+    background: #294D61;
     
 }
 
@@ -33,7 +33,7 @@ body {
     height: 170px;
     width: 170px;
     border-radius: 80%;
-    background-color: #ffd000;
+    background-color: #294D61;
     padding: 3px;
     margin-bottom: 10px; 
 }
@@ -50,27 +50,27 @@ body {
     display: flex;
     flex-direction: column;  
     align-items: center;
-    color: #ffd000
+    color: #294D61;
 }
 .content .name {
-    font-size: 1.2rem;
-    font-weight: 650;
-    text-shadow: 1px 1px rgb(247, 245, 195); 
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(154, 195, 218); 
     
 }
 .content .job {
-    font-size: 0.95rem;
-    font-weight: 500;
-    text-shadow: 1px 1px rgb(247, 245, 195);
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(154, 195, 218);
     
 }
 
 .profcard .social {
-    /* position: absolute; */
     bottom: 10px;
     display: flex;
     margin-top: 15px;
 }
+
 .social .links{
     height: 34px;
     width: 34px;
